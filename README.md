@@ -86,7 +86,7 @@ Aquí hay algunas cosas interesantes que puedes intentar agregar al Sistema TRV 
 - Crear características adicionales como una base de datos de clientes o tarjetas de regalo.
 - Migrarlo a un framework moderno para una actualización tecnológica.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Inicié este proyecto con la intención de mejorar mis habilidades en programación, así que no te asustes si algunas (o quizás muchas) variables, funciones y la sintaxis en general están un poco desordenadas y no siguen completamente las coding best practices. 😅 (ya he mejorado, por cierto)
 
 [^1]: Requiere tu propio servidor de correo electrónico
