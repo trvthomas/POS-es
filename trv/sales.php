@@ -1,4 +1,4 @@
-<?php include "include/verifySession.php";
+<?php include_once "include/verifySession.php";
 
 $metodoPagoPersonalizado = "";
 
@@ -16,11 +16,11 @@ if ($result2->num_rows > 0) {
 <head>
 	<title>Ventas del día</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body onload="countdownHideSales(); loadSales();">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<div class="columns">
@@ -90,7 +90,7 @@ if ($result2->num_rows > 0) {
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<form action="/trv/include/get-all-sales.php" method="POST" style="display: none" id="getInfoForm" onsubmit="return getInfoReturn();">
 		<input name="getInfoToken" value="pos4862" readonly>

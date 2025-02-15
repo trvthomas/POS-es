@@ -15,7 +15,7 @@ if (!isset($_COOKIE[$prefixCoookie . "IdUser"]) || !isset($_COOKIE[$prefixCoooki
 </head>
 
 <body>
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox loginBox">
 		<div class="box">

@@ -1,15 +1,15 @@
-<?php include "include/verifySession.php"; ?>
+<?php include_once "include/verifySession.php"; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Informes y reportes</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body onload="getReports()">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Informes y reportes</h3>
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<form method="POST" action="/trv/include/get-reports.php" style="display: none" id="getReportsForm" onsubmit="return getReportsReturn();">
 		<input name="getReportsID" value="seller189" readonly>

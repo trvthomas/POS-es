@@ -1,5 +1,5 @@
-<?php include "include/DBData.php";
-include "include/stats.php";
+<?php include_once "include/DBData.php";
+include_once "include/stats.php";
 if (isset($_COOKIE[$prefixCoookie . "IdUser"]) || isset($_COOKIE[$prefixCoookie . "UsernameUser"])) {
 	header("Location:home.php");
 }
@@ -83,13 +83,13 @@ if ($result->num_rows > 0) {
 <head>
 	<title>Resumen del día</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body <?php if ($onloadActions != "") {
 			echo 'onload= "' . $onloadActions . '"';
 		} ?>>
-	<?php include "include/header-login.php"; ?>
+	<?php include_once "include/header-login.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Resumen del día</h3>
@@ -135,7 +135,7 @@ if ($result->num_rows > 0) {
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<form action="/trv/include/mail-close-cash.php" method="POST" style="display: none" id="sendMailForm" onsubmit="return sendMailReturn();">
 		<input name="sendDaySummaryEmail" id="sendDaySummaryEmail" value="<?php echo $adminEmail; ?>">

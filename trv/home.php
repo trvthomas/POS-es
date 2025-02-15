@@ -1,15 +1,15 @@
-<?php include "include/verifySession.php"; ?>
+<?php include_once "include/verifySession.php"; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Inicio</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body onload="countdownHideSales(); loadSales();">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox has-text-centered">
 		<div class="columns is-multiline is-centered has-text-left">
@@ -110,7 +110,7 @@
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<form action="/trv/include/get-home-sales.php" method="POST" style="display: none" id="getInfoForm" onsubmit="return getInfoReturn();">
 		<input name="getInfoToken" value="pos4862" readonly>

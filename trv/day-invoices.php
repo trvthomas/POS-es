@@ -1,4 +1,4 @@
-<?php include "include/verifySession.php";
+<?php include_once "include/verifySession.php";
 
 $nombreEmpresa = "";
 $metodoPagoPersonalizado = "";
@@ -25,14 +25,14 @@ if ($result3->num_rows > 0) {
 <head>
 	<title>Comprobantes de venta del día</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 	<link rel="stylesheet" href="/trv/include/libraries/bulma-list.css">
 	<link rel="stylesheet" href="/trv/include/libraries/bulma-quickview.min.css">
 	<script type="text/javascript" src="/trv/include/libraries/bulma-quickview.min.js"></script>
 </head>
 
 <body onload="getSalesList(true)">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Comprobantes de venta</h3>
@@ -51,7 +51,7 @@ if ($result3->num_rows > 0) {
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<div class="quickviewOverlay" id="elementShareOverlay" onclick="document.getElementById('elementShare').classList.toggle('is-active'); document.getElementById('elementShareOverlay').classList.toggle('is-active');"></div>
 	<div class="quickview" id="elementShare">

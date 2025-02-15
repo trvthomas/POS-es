@@ -1,4 +1,4 @@
-<?php include "DBData.php";
+<?php include_once "DBData.php";
 
 $existeError = false;
 $movimientoRegistrado = false;

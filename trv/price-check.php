@@ -1,11 +1,11 @@
-<?php include "include/verifySession.php"; ?>
+<?php include_once "include/verifySession.php"; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Verificador de precios</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 	<link rel="stylesheet" href="/trv/include/libraries/bulma-list.css">
 	<link rel="stylesheet" href="/trv/include/libraries/bulma-quickview.min.css">
 	<script type="text/javascript" src="/trv/include/libraries/bulma-quickview.min.js"></script>
@@ -22,7 +22,7 @@
 
 <body>
 	<?php if (!isset($_GET["hide_header"])) {
-		include "include/header.php";
+		include_once "include/header.php";
 	} ?>
 
 	<div class="contentBox">
@@ -59,7 +59,7 @@
 	</div>
 
 	<?php if (!isset($_GET["hide_header"])) {
-		include "include/footer.php";
+		include_once "include/footer.php";
 	} ?>
 
 	<form method="POST" action="/trv/include/search-price.php" style="display: none" id="searchPriceForm" onsubmit="return searchPriceReturn();">

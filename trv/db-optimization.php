@@ -5,7 +5,7 @@
 <head>
 	<title>Optimizando la base de datos, por favor espere...</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body>

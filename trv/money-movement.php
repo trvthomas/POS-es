@@ -1,4 +1,4 @@
-<?php include "include/verifySession.php";
+<?php include_once "include/verifySession.php";
 
 $metodoPagoPersonalizado = "";
 
@@ -17,11 +17,11 @@ if ($result->num_rows > 0) {
 <head>
 	<title>Movimiento de caja</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body>
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Movimiento de caja</h3>
@@ -148,7 +148,7 @@ if ($result->num_rows > 0) {
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<form method="POST" action="/trv/include/new-money-movement.php" style="display: none" id="newMovementForm" onsubmit="return newMovementReturn();">
 		<input name="newMovementPayment" id="newMovementPayment" readonly>

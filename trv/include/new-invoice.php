@@ -1,5 +1,5 @@
-<?php include "DBData.php";
-include "autoPrinting.php";
+<?php include_once "DBData.php";
+include_once "autoPrinting.php";
 
 $existeError = false;
 $saleCreated = false;

@@ -1,15 +1,15 @@
-<?php include "include/verifySession.php"; ?>
+<?php include_once "include/verifySession.php"; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Cerrar caja</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body>
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox loginBox">
 		<div class="box has-text-centered boxVoted mt-5">
@@ -28,7 +28,7 @@
 	</div>
 
 	<?php $footerFixed = true;
-	include "include/footer.php"; ?>
+	include_once "include/footer.php"; ?>
 
 	<form method="POST" action="/trv/include/close-cash.php" style="display: none" id="closeCashForm" onsubmit="return closeCashReturn();">
 		<input name="closeCashPass" value="<?php echo $_COOKIE[$prefixCoookie . "DateEnter"] . "T24498"; ?>" readonly>

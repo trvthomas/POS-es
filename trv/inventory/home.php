@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox has-text-centered">
 		<div class="columns is-multiline is-centered">

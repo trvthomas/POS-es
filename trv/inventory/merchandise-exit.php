@@ -46,7 +46,7 @@ if ($result3->num_rows > 0) {
 </head>
 
 <body onbeforeunload="return confirmationExit()">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Documento de retiro de mercancía</h3>

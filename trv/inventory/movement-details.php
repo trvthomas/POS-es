@@ -59,7 +59,7 @@ if (isset($_GET["id"])) {
 </head>
 
 <body>
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<?php if ($autorizarEntrar == true) { ?>
 		<div class="contentBox">

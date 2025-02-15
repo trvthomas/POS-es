@@ -1,4 +1,4 @@
-<?php include "include/verifySession.php";
+<?php include_once "include/verifySession.php";
 include $_SERVER['DOCUMENT_ROOT'] . "/trv/include/PHPColors.php";
 
 use Mexitek\PHPColors\Color;
@@ -100,11 +100,11 @@ if ($result3->num_rows > 0) {
 <head>
 	<title>Nueva venta</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body onbeforeunload="return confirmationExit()">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<a class="button is-small is-pulled-left" href="/trv/home.php"><span class="icon is-small"><i class="fas fa-chevron-left"></i></span></a>
@@ -388,7 +388,7 @@ if ($result3->num_rows > 0) {
 		</div>
 	</div>
 
-	<?php include "include/footer.php"; ?>
+	<?php include_once "include/footer.php"; ?>
 
 	<div id="overlaySelectProduct1" class="trvModal">
 		<div class="trvModal-content trvModal-content-large">

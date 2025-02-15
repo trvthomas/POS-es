@@ -51,7 +51,7 @@ if ($result->num_rows > 0) {
 <head>
 	<title>Configuración inicial</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 	<script src="/trv/include/libraries/tinymce/tinymce.min.js"></script>
 	<link rel="stylesheet" href="/trv/include/libraries/bulma-steps.min.css">
 </head>

@@ -13,7 +13,7 @@
 </head>
 
 <body onload="getInventory(true)">
-	<?php include "include/header.php"; ?>
+	<?php include_once "include/header.php"; ?>
 
 	<div class="contentBox">
 		<h3 class="is-size-5">Historial de inventario</h3>

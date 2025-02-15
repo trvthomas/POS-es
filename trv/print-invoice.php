@@ -1,11 +1,11 @@
-<?php include "include/verifySession.php"; ?>
+<?php include_once "include/verifySession.php"; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title>Imprimir comprobante de venta</title>
 
-	<?php include "include/head-tracking.php"; ?>
+	<?php include_once "include/head-tracking.php"; ?>
 </head>
 
 <body onload="printPage()">

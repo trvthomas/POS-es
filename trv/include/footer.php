@@ -1,4 +1,4 @@
-<?php include "DBData.php";
+<?php include_once "DBData.php";
 
 $sql = "SELECT configName, value FROM trvsol_configuration WHERE configName= 'version'";
 $result = $conn->query($sql);
