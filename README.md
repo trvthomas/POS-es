@@ -1,5 +1,5 @@
 # TRV Solutions Sistema POS 🎉
-## Acerca del Projecto
+## Acerca del Proyecto
 ¡Hola! 👋 Conoce TRV Solutions POS, un proyecto que comencé en 2018 cuando solo era un curioso programador de 14 años. Es un **sistema de punto de venta completo** construido con la simplicidad en mente utilizando PHP, HTML, CSS (Bulma.io) y JavaScript.
 
 Este sistema POS fue creado para **pequeñas empresas** que necesitan algo gratuito para comenzar, offline, confiable y sin complicaciones. ¿No tienes internet? No hay problema. ¿No tienes servidores en la nube o sitio web sofisticado? No necesitas uno. Solo una computadora, y estás listo para empezar.
